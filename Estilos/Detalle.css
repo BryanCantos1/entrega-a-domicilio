@@ -1,0 +1,84 @@
+div{
+  background: #ffc107;
+  border-left:50px; 
+
+background-color:#495057;
+
+}
+p{
+ justify-content:20px; 
+  font-size: 21px;
+  width:center;
+}
+body{
+    font-family: medium/1.4 sans-serif;
+    background-image: url("../imagen/fondo.jpg");
+}
+tbody tr:nth-child(odd){
+    background: #f8f9fa;
+}
+order-table {
+  border:rgba(0,0,0,.075)
+  margin:auto;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.card {
+  background: rgba(0,0,0,0.9);
+ padding: 20px;
+ border-right: 20px;
+ border-left:20px; 
+ border-style: center;
+ margin: auto;
+background-image: url("../imagen/fondo.jpg");
+
+}s
+table{
+    border-collapse:collapse;
+    width: 78%;
+    text-align: center;
+    margin: auto;
+}
+
+input{
+  height:auto;
+}
+label{
+  color:#495057;
+ font-size: 18px;
+}
+table{
+   text-decoration: none;
+    background-color:rgb(0, 191, 255);
+}
+th,td{
+    padding: 0.25rem;
+  border:19x solid rgba(0,0,0,.075);
+
+}
+tr{
+  border-color: #ffc107;
+  background-color: #dae0e5;
+ 
+
+}
+
+body{
+  background-image:url("../imagenes/fondo.jpg");
+  background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+}
+section{
+background-color:rgba(0,0,0,.075);
+width: 870px; 
+margin: auto;
+background-color: solid;
+shape-margin: 80px;
+column-span: 80px;
+}

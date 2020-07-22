@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> hacer un pedido </title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+<link rel="stylesheet" type="text/css" href="Estilos/tabsC.css">
+<link rel="stylesheet" type="text/css" href="Estilos/header.css">
+<link rel="stylesheet" type="text/css" href="Estilos/footer.css">
+<link rel="stylesheet" type="text/css" href="Estilos/trasanc.css">
+ <script src="js/validaciones.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<header>
+ <ul>
+<li><a href="index.html">Inicio</a></li>
+  <li><a href="Adminitracion.html">Administracion de pedidos </a></li>
+  <li><a href="Consultas.html">Consultas de pedidos </a></li>
+  <li><a href="Transacion.html">hacer pedidos </a></li>
+  <li><a href="quienes.html">Quienes somos</a></li>
+  <li style="float:right"><a href="registro.html">Registro</a></li>
+  <li style="float:right"><a href="login.html">InicioSeccion</a></li>
+</ul>
+</header>
+
+<section class="container">  
+      <div class="card">
+      <h2>Solicitud del producto </h2>
+      <div class="fakeimg" style="width: 200px" ></div>
+      <br>
+ <p>Escoja el producto deseado presione enviar y su pedido llegara pronto </p> 
+<div>
+  <div class="contenedor-form">
+        <div class="toggle">
+        </div>
+        <div class="formulario">
+            <h2>seleccione el producto por favor.</h2>
+            <h5>registro de pedidos </h5>
+            <br>
+           
+              <input type="checkbox" name="Tour1" value="Bike">
+  <label for="Tour1">botellon de agua </label><br>
+  <input type="checkbox" name="Tour2" value="Bikee">
+  <label for="Tour2">tanque de gas domestico</label><br>
+        <div> <form id="form">
+  <p>
+    <label for="name">Nombre </label><br>
+    <input type="text"  id="txtNombreusuarioRegistro"  
+    placeholder="ingrese su nombre"
+    autofocus
+    autocomplete
+  >
+  </p>
+<p>
+    <label for="name">Apellido </label><br>
+    <input type="text"  id="txtApellidoUsuarioregistro"
+    placeholder="Ingrese su apellido"
+    autofocus
+    autocomplete
+    >
+  </p>
+
+<p>
+    <label for="name">direccion </label><br>
+   <input type="text" id="txtDireccionUsuarioRegistro"
+    placeholder="Ingrse su edad "
+    autofocus
+    autocomplete
+    >
+  </p>
+
+  <p>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Ingrese su correo electronico" id="txtEmailUsaurioRegistro"
+   /></p>
+  </p>
+    <p>
+     <input type="submit" class="button" value="Enviar">
+    </p>
+  </form>
+</div>   
+    </div>
+    </div>   
+    <script src="js/solicitar.js"></script>
+</section>
+<footer>
+     <p>Pagina  de Agua y gas a domicilio</p>
+</footer>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Administracion de pedidos </title>
+<link rel="stylesheet" type="text/css" href="Estilos\header.css">
+<link rel="stylesheet" type="text/css" href="Estilos\Administ.css">
+<link rel="stylesheet" type="text/css" href="Estilos\footer.css">
+
+<script type="text/javascript" src="js/admin.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="Adminitracion.html">Administracion de pedidos </a></li>
+  <li><a href="Consultas.html">Consultas de pedidos </a></li>
+  <li><a href="Transacion.html">hacer pedidos </a></li>
+  <li><a href="quienes.html">Quienes somos</a></li>
+  <li style="float:right"><a href="registro.html">Registro</a></li>
+  <li style="float:right"><a href="login.html">InicioSeccion</a></li>
+</ul>
+</header>
+<section> 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+     <div class="container">
+      <div>
+      <h2>Administrador de solicitudes</h2>
+      <p>
+      Registro de Pedidos
+      </p>
+      </div>
+
+      <label>Busquedas de pedidos </label>
+      <input class="form-control col-md-3 light-table-filter" data-table="order-table" type="text" placeholder="Buscar ruta">
+      <div>
+ <table class="table table-bordered order-table ">
+        <thead>
+          <tr>
+            <th>Lugar de pedido</th>
+            <th>Nombre y apellidos </th>
+            <th>Fecha de pedido </th>
+            <th colspan="2" scope="rowgroup">estado del pedido </th>
+          </tr>
+        </thead>
+        <tr>
+          <td>manta santa clara </td>
+          <td>Maria Perez</td>
+          <td>20/2/2020   hasta 30/2/2020 </td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado </button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>
+        </tr>
+        <tr>
+          <td>Manta urbirrios </td>
+          <td>Felipe Figueroa</td>
+          <td>1/4/2020   hasta 10/4/2020</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>
+        </tr>
+        <tr>
+          <td>manta san pedro</td>
+          <td>Maria Tuares</td>
+          <td>20/2/2020   hasta 30/2/2020</td>
+         <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>
+        </tr>
+        <tr>
+          <td>Manta urbirrios</td>
+          <td>bryan cantos</td>
+          <td>1/4/2020   hasta 10/4/2020</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>        
+        </tr>
+        <tr>
+          <td>Manta circunvalacion</td>
+          <td>Andrea Tuarez</td>
+          <td>1/4/2020   hasta 10/4/2020s</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>        
+        </tr>
+        <tr>
+          <td>Manta revancha</td>
+          <td>Leticia Tuarez</td>
+          <td>1/4/2020   hasta 10/4/2020</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>
+        </tr>
+        <tr>
+          <td>manta san antonio</td>
+          <td>Patricio Smit</td>
+          <td>20/2/2020   hasta 30/2/2020</td>
+          <td><button  type="button" class="alert1" onclick="alert1()" >entregado</button></td>
+          <td><button type="button" class="alert2" onclick="alert2()">no entregado</button></td>        
+        
+ </table>
+     </div>   
+     </div> 
+     </div>
+     </div>
+      
+</section> 
+<footer>
+     <p>Pagina  de Agua y gas a domicilio</p>
+</footer> 
+</body>
+</html>
+
+         

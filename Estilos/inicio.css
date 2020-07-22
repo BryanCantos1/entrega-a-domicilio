@@ -1,0 +1,61 @@
+body{
+    display: block;
+   background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+   background-image:url("../imagen/fondo.jpg");
+}
+p{
+  justify-content:10px; 
+  font-size: 18px;
+  width:center;
+
+  
+}
+h1{
+  background-color:#F8F8F8 ;
+  font-size: 18px;
+  line-height: 18px;
+}
+h4{
+  background-color:#F8F8F8 ;
+  font-size: 17px;
+  line-height: 17px;
+}
+section{
+width: 870px; 
+margin: auto;
+background-color:#F8F8F8 ;
+shape-margin: 80px;
+column-span: 80px;
+}
+
+.card {
+background-color:#F8F8F8 ;
+ padding: 20px;
+ border-right: 20px;
+ border-left:20px; 
+ border-style: center;
+}
+.imagemont{
+  width:800px;
+    display: block;  
+  background-image:url("../imagen/gass.jfif");
+  height: 400px; 
+     
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.ima{
+  width:800px;
+    display: block;  
+  box-sizing: border-box;
+  background-image:url("../imagen/agua.jpg");
+  height: 400px;  
+
+ 
+}

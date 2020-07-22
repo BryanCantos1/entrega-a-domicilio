@@ -1,0 +1,86 @@
+body {
+  background-image: url("../imagenes/botella.jpg");
+  background-position: center center;   
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  justify-content:10px; 
+  font-size: 18px;
+  width:center;
+}
+input{
+ background-color:rgb(235, 245, 251 );
+  padding: 2px;
+  border-radius: 4px;
+  border-color: black;
+  margin-left: 100px;
+  text-decoration-color: black;
+  font-size: 16px;
+}
+section{
+ 
+padding: 2px;
+text-align: left; 
+margin-top: 200px;
+}
+.button{
+  background-color:#ffc107;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+.container{
+ background: #ebebeb;
+  width: 80px;
+  margin:8px;
+  border-style: center;
+}
+
+
+
+
+/* Add a card effect for articles */
+.card {
+background: #ebebeb;
+padding: 20px;
+border-radius:8px
+border-style: 2px;
+margin: 8px;
+background-image: url(../imagene/fondo.jpg);
+}
+
+
+p{
+   justify-content:20px; 
+  margin: center;
+}
+.button{
+  background-color:#343a40;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  div.footer {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.container {
+    font-size: 30px;
+  }
